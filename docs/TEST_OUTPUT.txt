@@ -1,0 +1,10 @@
+PASS: concurrent allocation respects capacity 1
+OK (82 tests, 817 assertions)
+PASS: token login, wizard steps 1–8, reload, three widths, admin verification; no page errors.
+PASS: four-role login, 22 role screens, CV review → opportunity approval → application forwarding → interview → offer → placement, 5 responsive widths.
+PASS: public landing, all-role signup, approval/login, avatar persistence, notifications, reports CSV, settings/audit and responsive keyboard navigation; no browser errors.
+PASS: MySQL repeated migrations, seed, rollback, race, PHPUnit, SQL import and browser journeys
+PASS: loaded landing at 320/768/1440px and decoded header avatar image.
+Frontend: 18 tests passed; ESLint passed; Vite build passed.
+Pint: passed.
+Composer audit: no advisories. npm audit: zero vulnerabilities.

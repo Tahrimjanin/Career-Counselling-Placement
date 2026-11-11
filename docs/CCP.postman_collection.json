@@ -1,0 +1,1106 @@
+{
+  "info": {
+    "name": "Career Counselling and Placement",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{bearerToken}}",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "apiBase",
+      "value": "http://localhost:8000"
+    },
+    {
+      "key": "bearerToken",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "POST /api/change-password",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/change-password",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/companies",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/companies",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "PATCH /api/companies/{company}/verify",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/companies/{company}/verify",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/cvs/{cv}/download",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/cvs/{cv}/download",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/dashboard",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/dashboard",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/email/verification-notification",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/email/verification-notification",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/email/verify/{id}/{hash}",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/email/verify/{id}/{hash}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/forgot-password",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/forgot-password",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/login",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/login",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/logout",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/logout",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/me",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/me",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/notes",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/notes",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/notes",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/notes",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/opportunities",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/opportunities",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/public/overview",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/public/overview",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/register",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/register",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/reset-password",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/reset-password",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/students",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/students",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/users",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/users",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/users",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/users",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/admin/audit",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/admin/audit",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/admin/companies",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/admin/companies",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/admin/reports",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/admin/reports",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/admin/reports.csv",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/admin/reports.csv",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/admin/settings",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/admin/settings",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "PUT /api/v1/admin/settings",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/admin/settings",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/admin/users",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/admin/users",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "PATCH /api/v1/admin/users/{user}",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/admin/users/{user}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/advisor-preferences",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/advisor-preferences",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/advisor-profile",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/advisor-profile",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "PUT /api/v1/advisor-profile",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/advisor-profile",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/advisors",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/advisors",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/allocations",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/allocations",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/allocations/{student}",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/allocations/{student}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "DELETE /api/v1/allocations/{student}",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/allocations/{student}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/applications",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/applications",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/applications",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/applications",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/applications/{application}",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/applications/{application}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "PATCH /api/v1/applications/{application}",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/applications/{application}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/applications/{application}/interview",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/applications/{application}/interview",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/applications/{application}/offer",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/applications/{application}/offer",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/avatar",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/avatar",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/avatar",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/avatar",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "DELETE /api/v1/avatar",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/avatar",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/cvs",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/cvs",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/cvs",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/cvs",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/cvs/{cv}",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/cvs/{cv}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/cvs/{cv}/download",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/cvs/{cv}/download",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/cvs/{cv}/review",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/cvs/{cv}/review",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/cvs/{cv}/submit",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/cvs/{cv}/submit",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/interviews",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/interviews",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "PATCH /api/v1/interviews/{id}",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/interviews/{id}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "PATCH /api/v1/milestones/{id}",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/milestones/{id}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/notifications",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/notifications",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/notifications/read-all",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/notifications/read-all",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/notifications/{notice}/read",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/notifications/{notice}/read",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/offers/{id}/respond",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/offers/{id}/respond",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/opportunities",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/opportunities",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/opportunities",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/opportunities",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/opportunities/{opportunity}/eligibility",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/opportunities/{opportunity}/eligibility",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/opportunities/{opportunity}/review",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/opportunities/{opportunity}/review",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "PUT /api/v1/opportunities/{opportunity}/save",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/opportunities/{opportunity}/save",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/placements",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/placements",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/plans/{student}",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/plans/{student}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "PUT /api/v1/plans/{student}",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/plans/{student}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/profile",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/profile",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "PATCH /api/v1/profile/steps/{step}",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/profile/steps/{step}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/reminders",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/reminders",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/reminders",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/reminders",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "DELETE /api/v1/reminders/{id}",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/reminders/{id}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/sessions",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/sessions",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "POST /api/v1/sessions",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/sessions",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "PATCH /api/v1/sessions/{id}",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/sessions/{id}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/student-verifications",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/student-verifications",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/student-verifications/{user}",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/student-verifications/{user}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "PATCH /api/v1/student-verifications/{user}",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/student-verifications/{user}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    },
+    {
+      "name": "GET /api/v1/students/{student}",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{apiBase}}/api/v1/students/{student}",
+        "description": "See API.md for body fields and permissions. Replace path parameters before sending."
+      }
+    }
+  ]
+}

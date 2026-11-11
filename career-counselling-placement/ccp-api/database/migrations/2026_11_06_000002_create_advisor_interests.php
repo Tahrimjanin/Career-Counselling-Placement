@@ -1,0 +1,24 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('advisor_interests', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('advisor_id')->constrained('users')->cascadeOnDelete();
+            $table->string('tag', 100);
+            $table->unique(['advisor_id', 'tag']);
+            $table->timestamps();
+        });
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('advisor_interests');
+    }
+};

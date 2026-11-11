@@ -1,0 +1,81 @@
+# Changed and added files
+
+Compared with the supplied audited archive. Dependencies and generated outputs are not included.
+
+```text
+ M README.md
+ D internship-tracker/frontend/.env
+ M internship-tracker/frontend/.env.example
+ M internship-tracker/frontend/.gitignore
+ M internship-tracker/frontend/src/App.jsx
+ M internship-tracker/frontend/src/AuthContext.jsx
+ M internship-tracker/frontend/src/Layout.jsx
+ M internship-tracker/frontend/src/api.js
+ M internship-tracker/frontend/src/index.css
+ M internship-tracker/frontend/src/pages/Login.jsx
+ M internship-tracker/internship-api/.env.example
+ M internship-tracker/internship-api/app/Http/Controllers/AuthController.php
+ M internship-tracker/internship-api/app/Http/Controllers/Controller.php
+ M internship-tracker/internship-api/app/Http/Controllers/CvController.php
+ M internship-tracker/internship-api/app/Http/Controllers/DashboardController.php
+ M internship-tracker/internship-api/app/Http/Controllers/InterviewController.php
+ M internship-tracker/internship-api/app/Http/Controllers/NoteController.php
+ M internship-tracker/internship-api/app/Http/Controllers/OpportunityController.php
+ M internship-tracker/internship-api/app/Http/Controllers/PeopleController.php
+ M internship-tracker/internship-api/app/Http/Middleware/RoleMiddleware.php
+ M internship-tracker/internship-api/app/Models/User.php
+ M internship-tracker/internship-api/app/Providers/AppServiceProvider.php
+ M internship-tracker/internship-api/bootstrap/app.php
+ M internship-tracker/internship-api/config/app.php
+ M internship-tracker/internship-api/config/sanctum.php
+ M internship-tracker/internship-api/database/migrations/2026_10_25_000001_create_career_tables.php
+ M internship-tracker/internship-api/database/seeders/DatabaseSeeder.php
+ M internship-tracker/internship-api/phpunit.xml
+ M internship-tracker/internship-api/routes/api.php
+?? docs/DATA_DICTIONARY.md
+?? docs/DECISIONS.md
+?? docs/ERD.md
+?? docs/STEP_3_5_API.md
+?? docs/STEP_3_5_CHANGED_FILES.md
+?? docs/STEP_3_5_RESULTS.md
+?? docs/STEP_3_5_RUN.md
+?? internship-tracker/frontend/src/pages/AuthActions.jsx
+?? internship-tracker/frontend/src/pages/Profile.jsx
+?? internship-tracker/frontend/src/pages/StudentVerification.jsx
+?? internship-tracker/frontend/tests/steps3-5.smoke.cjs
+?? internship-tracker/internship-api/app/Enums/Role.php
+?? internship-tracker/internship-api/app/Http/Controllers/ProfileController.php
+?? internship-tracker/internship-api/app/Http/Controllers/StudentVerificationController.php
+?? internship-tracker/internship-api/app/Http/Middleware/ActiveAccount.php
+?? internship-tracker/internship-api/app/Http/Middleware/PasswordChanged.php
+?? internship-tracker/internship-api/app/Http/Middleware/SecurityHeaders.php
+?? internship-tracker/internship-api/app/Http/Middleware/StudentVerified.php
+?? internship-tracker/internship-api/app/Http/Requests/AuthRequest.php
+?? internship-tracker/internship-api/app/Http/Requests/CreateUserRequest.php
+?? internship-tracker/internship-api/app/Http/Requests/ProfileStepRequest.php
+?? internship-tracker/internship-api/app/Http/Requests/VerificationRequest.php
+?? internship-tracker/internship-api/app/Http/Resources/ProfileResource.php
+?? internship-tracker/internship-api/app/Http/Resources/UserResource.php
+?? internship-tracker/internship-api/app/Models/StudentProfile.php
+?? internship-tracker/internship-api/app/Policies/CompanyPolicy.php
+?? internship-tracker/internship-api/app/Policies/UserPolicy.php
+?? internship-tracker/internship-api/app/Services/ProfileCompletion.php
+?? internship-tracker/internship-api/app/Services/Readiness.php
+?? internship-tracker/internship-api/config/ccp.php
+?? internship-tracker/internship-api/config/cors.php
+?? internship-tracker/internship-api/database/migrations/2026_10_29_000001_extend_accounts.php
+?? internship-tracker/internship-api/database/migrations/2026_10_29_000002_create_profiles.php
+?? internship-tracker/internship-api/database/migrations/2026_10_29_000003_create_advisor_foundations.php
+?? internship-tracker/internship-api/database/migrations/2026_10_29_000004_extend_placement_schema.php
+?? internship-tracker/internship-api/database/migrations/2026_10_29_000005_create_support_tables.php
+?? internship-tracker/internship-api/database/migrations/2026_10_29_000006_convert_legacy_data.php
+?? internship-tracker/internship-api/database/seeders/AdvisorSeeder.php
+?? internship-tracker/internship-api/database/seeders/CompanySeeder.php
+?? internship-tracker/internship-api/database/seeders/DemoWorkflowSeeder.php
+?? internship-tracker/internship-api/database/seeders/OpportunitySeeder.php
+?? internship-tracker/internship-api/database/seeders/RoleUserSeeder.php
+?? internship-tracker/internship-api/database/seeders/SkillSeeder.php
+?? internship-tracker/internship-api/tests/Feature/AuthProfileTest.php
+?? internship-tracker/internship-api/tests/fixtures/legacy_assert.php
+?? internship-tracker/internship-api/tests/fixtures/legacy_seed.php
+```

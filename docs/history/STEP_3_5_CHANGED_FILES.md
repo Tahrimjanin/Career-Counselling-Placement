@@ -1,0 +1,81 @@
+# Changed and added files
+
+Compared with the supplied audited archive. Dependencies and generated outputs are not included.
+
+```text
+ M README.md
+ D career-counselling-placement/ccp-web/.env
+ M career-counselling-placement/ccp-web/.env.example
+ M career-counselling-placement/ccp-web/.gitignore
+ M career-counselling-placement/ccp-web/src/App.jsx
+ M career-counselling-placement/ccp-web/src/AuthContext.jsx
+ M career-counselling-placement/ccp-web/src/Layout.jsx
+ M career-counselling-placement/ccp-web/src/api.js
+ M career-counselling-placement/ccp-web/src/index.css
+ M career-counselling-placement/ccp-web/src/pages/Login.jsx
+ M career-counselling-placement/ccp-api/.env.example
+ M career-counselling-placement/ccp-api/app/Http/Controllers/AuthController.php
+ M career-counselling-placement/ccp-api/app/Http/Controllers/Controller.php
+ M career-counselling-placement/ccp-api/app/Http/Controllers/CvController.php
+ M career-counselling-placement/ccp-api/app/Http/Controllers/DashboardController.php
+ M career-counselling-placement/ccp-api/app/Http/Controllers/InterviewController.php
+ M career-counselling-placement/ccp-api/app/Http/Controllers/NoteController.php
+ M career-counselling-placement/ccp-api/app/Http/Controllers/OpportunityController.php
+ M career-counselling-placement/ccp-api/app/Http/Controllers/PeopleController.php
+ M career-counselling-placement/ccp-api/app/Http/Middleware/RoleMiddleware.php
+ M career-counselling-placement/ccp-api/app/Models/User.php
+ M career-counselling-placement/ccp-api/app/Providers/AppServiceProvider.php
+ M career-counselling-placement/ccp-api/bootstrap/app.php
+ M career-counselling-placement/ccp-api/config/app.php
+ M career-counselling-placement/ccp-api/config/sanctum.php
+ M career-counselling-placement/ccp-api/database/migrations/2026_10_25_000001_create_career_tables.php
+ M career-counselling-placement/ccp-api/database/seeders/DatabaseSeeder.php
+ M career-counselling-placement/ccp-api/phpunit.xml
+ M career-counselling-placement/ccp-api/routes/api.php
+?? docs/DATA_DICTIONARY.md
+?? docs/DECISIONS.md
+?? docs/ERD.md
+?? docs/STEP_3_5_API.md
+?? docs/STEP_3_5_CHANGED_FILES.md
+?? docs/STEP_3_5_RESULTS.md
+?? docs/STEP_3_5_RUN.md
+?? career-counselling-placement/ccp-web/src/pages/AuthActions.jsx
+?? career-counselling-placement/ccp-web/src/pages/Profile.jsx
+?? career-counselling-placement/ccp-web/src/pages/StudentVerification.jsx
+?? career-counselling-placement/ccp-web/tests/steps3-5.smoke.cjs
+?? career-counselling-placement/ccp-api/app/Enums/Role.php
+?? career-counselling-placement/ccp-api/app/Http/Controllers/ProfileController.php
+?? career-counselling-placement/ccp-api/app/Http/Controllers/StudentVerificationController.php
+?? career-counselling-placement/ccp-api/app/Http/Middleware/ActiveAccount.php
+?? career-counselling-placement/ccp-api/app/Http/Middleware/PasswordChanged.php
+?? career-counselling-placement/ccp-api/app/Http/Middleware/SecurityHeaders.php
+?? career-counselling-placement/ccp-api/app/Http/Middleware/StudentVerified.php
+?? career-counselling-placement/ccp-api/app/Http/Requests/AuthRequest.php
+?? career-counselling-placement/ccp-api/app/Http/Requests/CreateUserRequest.php
+?? career-counselling-placement/ccp-api/app/Http/Requests/ProfileStepRequest.php
+?? career-counselling-placement/ccp-api/app/Http/Requests/VerificationRequest.php
+?? career-counselling-placement/ccp-api/app/Http/Resources/ProfileResource.php
+?? career-counselling-placement/ccp-api/app/Http/Resources/UserResource.php
+?? career-counselling-placement/ccp-api/app/Models/StudentProfile.php
+?? career-counselling-placement/ccp-api/app/Policies/CompanyPolicy.php
+?? career-counselling-placement/ccp-api/app/Policies/UserPolicy.php
+?? career-counselling-placement/ccp-api/app/Services/ProfileCompletion.php
+?? career-counselling-placement/ccp-api/app/Services/Readiness.php
+?? career-counselling-placement/ccp-api/config/ccp.php
+?? career-counselling-placement/ccp-api/config/cors.php
+?? career-counselling-placement/ccp-api/database/migrations/2026_10_29_000001_extend_accounts.php
+?? career-counselling-placement/ccp-api/database/migrations/2026_10_29_000002_create_profiles.php
+?? career-counselling-placement/ccp-api/database/migrations/2026_10_29_000003_create_advisor_foundations.php
+?? career-counselling-placement/ccp-api/database/migrations/2026_10_29_000004_extend_placement_schema.php
+?? career-counselling-placement/ccp-api/database/migrations/2026_10_29_000005_create_support_tables.php
+?? career-counselling-placement/ccp-api/database/migrations/2026_10_29_000006_convert_legacy_data.php
+?? career-counselling-placement/ccp-api/database/seeders/AdvisorSeeder.php
+?? career-counselling-placement/ccp-api/database/seeders/CompanySeeder.php
+?? career-counselling-placement/ccp-api/database/seeders/DemoWorkflowSeeder.php
+?? career-counselling-placement/ccp-api/database/seeders/OpportunitySeeder.php
+?? career-counselling-placement/ccp-api/database/seeders/RoleUserSeeder.php
+?? career-counselling-placement/ccp-api/database/seeders/SkillSeeder.php
+?? career-counselling-placement/ccp-api/tests/Feature/AuthProfileTest.php
+?? career-counselling-placement/ccp-api/tests/fixtures/legacy_assert.php
+?? career-counselling-placement/ccp-api/tests/fixtures/legacy_seed.php
+```
